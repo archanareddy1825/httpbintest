@@ -1,0 +1,20 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "funtional test to validate the rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './test/api/request-promise/test_*.js'  --reporter mochawesome --timeout 5000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.0.2",
+    "mochawesome": "^6.2.2",
+    "mochawesome-report-generator": "^5.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
